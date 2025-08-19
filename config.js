@@ -1,5 +1,5 @@
-const fs = require('fs');
-if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
+constfs = require('fs');
+I  (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
 functionconvertToBool(text, fault = 'true') {
     returntext === fault ? true : false;
